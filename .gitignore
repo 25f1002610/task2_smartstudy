@@ -1,0 +1,44 @@
+# Environment & Secrets
+.env
+.env.local
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# ADK & Session Storage
+.adk/
+*.sqlite
+*.db
+
+# Node & Frontend
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+frontend/dist/
+frontend/.vite/
+*.tsbuildinfo
+**/*.tsbuildinfo
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db

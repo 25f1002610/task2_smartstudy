@@ -1,0 +1,489 @@
+{
+  "success": true,
+  "session_id": "session_3c277879cbfc",
+  "phases_executed": [
+    "coordinator_agent",
+    "planning_agent",
+    "practice_agent",
+    "topic_agent",
+    "schedule_agent",
+    "study_plan_writer_agent",
+    "review_agent",
+    "final_response_agent"
+  ],
+  "final_markdown": "# \ud83c\udf93 SmartStudy: Personalized Multi-Agent Study Plan\n\n## \ud83d\udccb Plan Overview & Verification Status\n- **Subject:** Data Structures\n- **Exam In:** 10 days\n- **Current Level:** Intermediate\n- **Daily Time Commitment:** 3.0 hours/day (Strict constraint)\n- **Quality Status:** \u2705 Verified & Approved by Quality Reviewer (All 5 Checks Passed: Complete topic coverage, daily hour budget respected, sufficient practice targets, spaced revision, and final mock preparation).\n\n---\n\n## \ud83c\udfaf Executive Strategy & Pacing\nWith 30 total hours over 10 days tailored for an intermediate student, this plan bypasses basic syntax to focus directly on high-yield pattern recognition, algorithmic templates, and complexity trade-offs. \n\n- **Days 1\u20132 (Linear Structures):** Swiftly refresh core patterns in Arrays (Two Pointers, Sliding Window) and Linked Lists (Fast/Slow pointers, Reversal) to build early momentum.\n- **Days 3\u20135 (Non-Linear Structures):** Dedicate robust time to Trees (Traversals, BSTs, Tries, Heaps) and Graphs (DFS/BFS, Cycle Detection, Shortest Path algorithms).\n- **Days 6\u20138 (Dynamic Programming - Deep Dive):** Fulfills your specific preference for thorough DP coverage by taking a progressive mastery ladder from 1D DP foundations to 2D grid/string matching and advanced Knapsack/Partition variants.\n- **Days 9\u201310 (Review & Simulation):** Consolidates learning through cross-topic remediation, rapid-fire problem-solving, formula review, and a rigorous 2-hour timed mock exam.\n\n---\n\n## \ud83d\udcca Syllabus Coverage & Practice Targets\n\n| Topic | Priority | Difficulty | Recommended Practice Problems | Practice Type |\n| :--- | :--- | :--- | :--- | :--- |\n| **Arrays** | Medium | Easy/Med | 3 problems (Subarray Sum, 3Sum, Container With Most Water) | Coding problems |\n| **Linked Lists** | Medium | Medium | 3 problems (Reverse LL II, Reorder List, Cycle II) | Coding problems |\n| **Trees** | High | Medium | 6 problems (Level Order, Validate BST, LCA, Trie, Heap Top-K) | Mixed practice |\n| **Graphs** | High | Hard | 3 problems (Course Schedule, Islands, Clone Graph) | Coding problems |\n| **Dynamic Programming** | High | Hard | 12 problems (Climbing Stairs, House Robber, LCS, Edit Distance, Knapsack) | Coding problems |\n\n---\n\n## \ud83d\udcc5 Comprehensive Day-by-Day Schedule\n\n### Day 1: Arrays & Advanced Patterns\n- **Learning Objectives:** Master two-pointer and sliding window techniques; understand prefix sum applications and in-place manipulation trade-offs.\n- **Study & Theory:** (1.5 hours) Review intermediate Array patterns (Two Pointers and Sliding Window) and analyze time/space complexities of in-place manipulation.\n- **Hands-on Practice:** (1.5 hours - target 3 problems: e.g., Subarray Sum Equals K, Three Sum, Container With Most Water).\n- **Daily Revision:** Quick self-quiz on array index manipulation bounds and sliding window invariant conditions.\n- **Daily Total:** (3.0 hours)\n\n### Day 2: Linked Lists & Pointer Manipulation\n- **Learning Objectives:** Gain fluency in pointer reassignment without memory leaks; master fast/slow pointer applications and list merging patterns.\n- **Study & Theory:** (1.5 hours) Review Linked List manipulation templates (Fast/Slow pointers, Reversal, Merging), Floyd's cycle detection algorithm, and LRU cache design principles.\n- **Hands-on Practice:** (1.5 hours - target 3 problems: e.g., Reverse Linked List II, Reorder List, Linked List Cycle II).\n- **Daily Revision:** Flashcard review of pointer adjustment pitfalls to avoid memory leaks or dangling pointers.\n- **Daily Total:** (3.0 hours)\n\n### Day 3: Tree Fundamentals & Traversals\n- **Learning Objectives:** Implement inorder, preorder, postorder, and level order traversals effortlessly; understand BST validation and node search mechanics.\n- **Study & Theory:** (1.5 hours) Study Binary Trees, BST properties, DFS/BFS traversals, Lowest Common Ancestor (LCA), and recursive call stack memory implications.\n- **Hands-on Practice:** (1.5 hours - target 3 problems: e.g., Binary Tree Level Order Traversal, Validate BST, Lowest Common Ancestor of a BST).\n- **Daily Revision:** Draw tree recursion call stacks on paper to reinforce state propagation.\n- **Daily Total:** (3.0 hours)\n\n### Day 4: Advanced Trees, Tries & Heaps\n- **Learning Objectives:** Understand self-balancing tree invariants; leverage Heaps and Tries for efficient prefix searching and priority retrieval.\n- **Study & Theory:** (1.5 hours) Study AVL/Red-Black balance concepts, Trie implementation from scratch, and Heap/Priority Queue patterns for streaming data.\n- **Hands-on Practice:** (1.5 hours - target 3 problems: e.g., Kth Largest Element in an Array, Implement Trie, Word Break using Trie).\n- **Daily Revision:** Compare time complexities of BST operations vs Heap operations.\n- **Daily Total:** (3.0 hours)\n\n### Day 5: Graph Representations & Algorithms\n- **Learning Objectives:** Choose optimal graph representations based on density; implement BFS/DFS for component counting, cycle detection, and shortest paths.\n- **Study & Theory:** (1.5 hours) Study graph representations (adjacency list vs. matrix), graph traversals, cycle detection, topological sorting, and Dijkstra's/Bellman-Ford algorithms.\n- **Hands-on Practice:** (1.5 hours - target 3 problems: e.g., Course Schedule, Number of Islands, Clone Graph).\n- **Daily Revision:** Review visited-set mechanics and recursion depth limits in graph traversals.\n- **Daily Total:** (3.0 hours)\n\n### Day 6: Dynamic Programming Foundation (1D DP)\n- **Learning Objectives:** Convert recursive top-down memoization to bottom-up tabulation; define clear state variables and recurrence relations for 1D problems.\n- **Study & Theory:** (1.5 hours) Study DP fundamentals (Memoization vs Tabulation, overlapping subproblems, optimal substructure) and 1D state transition patterns.\n- **Hands-on Practice:** (1.5 hours - target 4 problems: e.g., Climbing Stairs, House Robber, Coin Change, Fibonacci Number).\n- **Daily Revision:** Write down the state definition and recurrence relation for today's solved problems without looking at notes.\n- **Daily Total:** (3.0 hours)\n\n### Day 7: Advanced Dynamic Programming (2D Grid & Strings)\n- **Learning Objectives:** Formulate 2D state transitions for grid traversal and string comparison; optimize space complexity from $O(M \\times N)$ to $O(N)$ where applicable.\n- **Study & Theory:** (1.5 hours) Study 2D Grid DP and String Matching DP patterns (LCS, Edit Distance, Unique Paths) and space optimization techniques.\n- **Hands-on Practice:** (1.5 hours - target 4 problems: e.g., Minimum Path Sum, Longest Common Subsequence, Edit Distance, Unique Paths).\n- **Daily Revision:** Trace the 2D DP table filling direction (bottom-up vs top-down memoization) for string problems.\n- **Daily Total:** (3.0 hours)\n\n### Day 8: Expert Dynamic Programming (Knapsack & Partitions)\n- **Learning Objectives:** Recognize knapsack-style problem signatures in disguise; implement robust bottom-up solutions for subset partition and coin change variants.\n- **Study & Theory:** (1.5 hours) Study Knapsack variants (0/1, Unbounded), partition problems, interval DP, and state compression techniques.\n- **Hands-on Practice:** (1.5 hours - target 4 problems: e.g., Partition Equal Subset Sum, Coin Change 2, Longest Increasing Subsequence, 0/1 Knapsack variant).\n- **Daily Revision:** Create a summary sheet of the top 5 DP state-transition patterns and their base cases.\n- **Daily Total:** (3.0 hours)\n\n### Day 9: Comprehensive Review & Weak Spot Remediation\n- **Learning Objectives:** Identify and fix remaining conceptual gaps; build mental agility in switching between disparate data structure paradigms.\n- **Study & Theory:** (1.5 hours) Conduct cross-topic review across Arrays, Linked Lists, Trees, Graphs, and DP; revisit flagged problems and analyze complexity trade-offs.\n- **Hands-on Practice:** (1.5 hours - target 5 problems: mixed rapid-fire questions across all topics).\n- **Daily Revision:** Review all key time/space complexity cheat sheets across all five topics.\n- **Daily Total:** (3.0 hours)\n\n### Day 10: Mock Exam & Final Preparation\n- **Learning Objectives:** Simulate exam-day pressure and time management; solidify confidence in core problem-solving templates.\n- **Study & Theory:** (1.0 hour) Perform final formula, template, and pattern summary review.\n- **Hands-on Practice:** (2.0 hours - 2-hour timed mock exam featuring 4 comprehensive multi-topic problems, followed by solution review).\n- **Daily Revision:** Final confidence-boosting review of core templates and high-yield problem patterns.\n- **Daily Total:** (3.0 hours - Final Exam Readiness Complete)\n\n---\n\n## \ud83d\udca1 High-Yield Exam Day Tips\n1. **Time Strategy:** Spend the first 10\u201315% of your exam time reading all problems thoroughly. Allocate time proportional to point values, and never get stuck on a single problem for more than half your allotted time without writing a partial/brute-force solution.\n2. **Edge-Case Checklist:** Always manually test your code against empty inputs (`[]`, `null`), single-node structures, duplicate elements, negative numbers, and cyclic references before submitting.\n3. **Calm Execution:** If you blank on an optimal algorithm (e.g., remembering exact DP state transitions), quickly implement a working recursive memoized solution or brute-force approach to secure partial points before attempting optimization.",
+  "structured_data": {
+    "draft_plan": {
+      "subject": "Data Structures",
+      "exam_in_days": 10,
+      "current_level": "Intermediate",
+      "hours_per_day": 3.0,
+      "covered_topics": [
+        "Arrays",
+        "Linked Lists",
+        "Trees",
+        "Graphs",
+        "Dynamic Programming"
+      ],
+      "plan_overview": "A rigorous 10-day preparation plan totaling 30 hours (3 hours/day) tailored for an intermediate student. The plan prioritizes swift refreshing of linear structures (Arrays, Linked Lists) on Days 1-2, allocates robust time for non-linear structures (Trees and Graphs) on Days 3-5, provides thorough, in-depth coverage of Dynamic Programming across Days 6-8 to satisfy user preferences, and wraps up with cross-topic review and a timed mock exam on Days 9-10.",
+      "day_by_day_plan": [
+        {
+          "day": 1,
+          "primary_focus": "Arrays & Advanced Patterns",
+          "tasks": [
+            "Review intermediate Array patterns: Two Pointers and Sliding Window",
+            "Analyze time and space complexities of in-place array manipulation",
+            "Implement and test sliding window invariant conditions"
+          ],
+          "learning_objectives": [
+            "Master two-pointer and sliding window techniques",
+            "Understand prefix sum applications and in-place manipulation trade-offs"
+          ],
+          "practice_tasks": [
+            "Solve 3 medium-difficulty LeetCode array problems (e.g., Subarray Sum Equals K, Three Sum, Container With Most Water)"
+          ],
+          "problem_count": 3,
+          "revision_tasks": "Quick self-quiz on array index manipulation bounds and sliding window invariant conditions.",
+          "study_hours": 1.5,
+          "practice_hours": 1.5,
+          "total_hours": 3.0,
+          "is_final_prep": false
+        },
+        {
+          "day": 2,
+          "primary_focus": "Linked Lists & Pointer Manipulation",
+          "tasks": [
+            "Review Linked List manipulation templates: Fast/Slow pointers, Reversal, and Merging",
+            "Study cycle detection (Floyd's algorithm) and LRU cache design principles",
+            "Handle edge cases such as null pointers and single-node structures"
+          ],
+          "learning_objectives": [
+            "Gain fluency in pointer reassignment without memory leaks",
+            "Master fast/slow pointer applications and list merging patterns"
+          ],
+          "practice_tasks": [
+            "Solve 3 medium-difficulty Linked List problems (e.g., Reverse Linked List II, Reorder List, Linked List Cycle II)"
+          ],
+          "problem_count": 3,
+          "revision_tasks": "Flashcard review of pointer adjustment pitfalls to avoid memory leaks or dangling pointers.",
+          "study_duration_hours": 1.5,
+          "practice_duration_hours": 1.5,
+          "total_hours": 3.0,
+          "is_final_prep": false
+        },
+        {
+          "day": 3,
+          "primary_focus": "Tree Fundamentals & Traversals",
+          "tasks": [
+            "Study Binary Trees, BST properties, and DFS/BFS traversals (Recursive & Iterative)",
+            "Review Lowest Common Ancestor (LCA) and tree construction patterns",
+            "Analyze recursive call stack memory implications"
+          ],
+          "learning_objectives": [
+            "Implement inorder, preorder, postorder, and level order traversals effortlessly",
+            "Understand BST validation and node search mechanics"
+          ],
+          "practice_tasks": [
+            "Solve 3 tree traversal and manipulation problems (e.g., Binary Tree Level Order Traversal, Validate BST, Lowest Common Ancestor of a BST)"
+          ],
+          "problem_count": 3,
+          "revision_tasks": "Draw tree recursion call stacks on paper to reinforce state propagation.",
+          "study_duration_hours": 1.5,
+          "practice_duration_hours": 1.5,
+          "total_hours": 3.0,
+          "is_final_prep": false
+        },
+        {
+          "day": 4,
+          "primary_focus": "Advanced Trees, Tries & Heaps",
+          "tasks": [
+            "Study AVL/Red-Black balance concept overview, Trie implementation, and Heap/Priority Queue patterns",
+            "Examine heap applications in top-K elements and streaming data",
+            "Build a Trie data structure from scratch"
+          ],
+          "learning_objectives": [
+            "Understand self-balancing tree invariants",
+            "Leverage Heaps and Tries for efficient prefix searching and priority retrieval"
+          ],
+          "practice_tasks": [
+            "Solve 3 advanced tree/heap problems (e.g., Kth Largest Element in an Array, Implement Trie, Word Break using Trie)"
+          ],
+          "problem_count": 3,
+          "revision_tasks": "Compare time complexities of BST operations vs Heap operations.",
+          "study_duration_hours": 1.5,
+          "practice_duration_hours": 1.5,
+          "total_hours": 3.0,
+          "is_final_prep": false
+        },
+        {
+          "day": 5,
+          "primary_focus": "Graph Representations & Algorithms",
+          "tasks": [
+            "Study graph representations (adjacency list vs. matrix), BFS, and DFS graph traversals",
+            "Explore cycle detection in directed/undirected graphs and topological sorting",
+            "Review shortest path algorithms (Dijkstra's and Bellman-Ford)"
+          ],
+          "learning_objectives": [
+            "Choose optimal graph representations based on density",
+            "Implement BFS/DFS for component counting and cycle detection"
+          ],
+          "practice_tasks": [
+            "Solve 3 graph problems (e.g., Course Schedule, Number of Islands, Clone Graph)"
+          ],
+          "problem_count": 3,
+          "revision_tasks": "Review visited-set mechanics and recursion depth limits in graph traversals.",
+          "study_duration_hours": 1.5,
+          "practice_duration_hours": 1.5,
+          "total_hours": 3.0,
+          "is_final_prep": false
+        },
+        {
+          "day": 6,
+          "primary_focus": "Dynamic Programming Foundation (1D DP)",
+          "tasks": [
+            "Study Dynamic Programming fundamentals: Memoization vs Tabulation, Identifying overlapping subproblems and optimal substructure",
+            "Master 1D DP state transition patterns",
+            "Trace recurrence relations for standard sequences"
+          ],
+          "learning_objectives": [
+            "Convert recursive top-down memoization to bottom-up tabulation",
+            "Define clear state variables and recurrence relations for 1D problems"
+          ],
+          "practice_tasks": [
+            "Solve 4 classic 1D DP problems (e.g., Climbing Stairs, House Robber, Coin Change, Fibonacci Number)"
+          ],
+          "problem_count": 4,
+          "revision_tasks": "Write down the state definition and recurrence relation for today's solved problems without looking at notes.",
+          "study_duration_hours": 1.5,
+          "practice_duration_hours": 1.5,
+          "total_hours": 3.0,
+          "is_final_prep": false
+        },
+        {
+          "day": 7,
+          "primary_focus": "Advanced Dynamic Programming (2D Grid & Strings)",
+          "tasks": [
+            "Study 2D Grid DP and String Matching DP patterns",
+            "Examine Longest Common Subsequence (LCS), Edit Distance, and Unique Paths state transitions",
+            "Practice space optimization techniques for 2D tables"
+          ],
+          "learning_objectives": [
+            "Formulate 2D state transitions for grid traversal and string comparison",
+            "Optimize space complexity from O(M*N) to O(N) where applicable"
+          ],
+          "practice_tasks": [
+            "Solve 4 intermediate 2D DP problems (e.g., Minimum Path Sum, Longest Common Subsequence, Edit Distance, Unique Paths)"
+          ],
+          "problem_count": 4,
+          "revision_tasks": "Trace the 2D DP table filling direction (bottom-up vs top-down memoization) for string problems.",
+          "study_duration_hours": 1.5,
+          "practice_duration_hours": 1.5,
+          "total_hours": 3.0,
+          "is_final_prep": false
+        },
+        {
+          "day": 8,
+          "primary_focus": "Expert Dynamic Programming (Knapsack & Partitions)",
+          "tasks": [
+            "Study Knapsack variants (0/1 Knapsack, Unbounded Knapsack) and Partition problems",
+            "Explore interval DP and state compression techniques",
+            "Master subset sum condition building"
+          ],
+          "learning_objectives": [
+            "Recognize knapsack-style problem signatures in disguise",
+            "Implement robust bottom-up solutions for subset partition and coin change variants"
+          ],
+          "practice_tasks": [
+            "Solve 4 complex DP problems (e.g., Partition Equal Subset Sum, Coin Change 2, Longest Increasing Subsequence, 0/1 Knapsack variant)"
+          ],
+          "problem_count": 4,
+          "revision_tasks": "Create a summary sheet of the top 5 DP state-transition patterns and their base cases.",
+          "study_duration_hours": 1.5,
+          "practice_duration_hours": 1.5,
+          "total_hours": 3.0,
+          "is_final_prep": false
+        },
+        {
+          "day": 9,
+          "primary_focus": "Comprehensive Review & Weak Spot Remediation",
+          "tasks": [
+            "Conduct cross-topic review across Arrays, Linked Lists, Trees, Graphs, and DP",
+            "Revisit flagged problems from previous days",
+            "Analyze time/space complexity trade-offs across all covered data structures"
+          ],
+          "learning_objectives": [
+            "Identify and fix remaining conceptual gaps",
+            "Build mental agility in switching between disparate data structure paradigms"
+          ],
+          "practice_tasks": [
+            "Solve a mixed set of 5 rapid-fire questions covering Arrays, Trees, Graphs, and DP"
+          ],
+          "problem_count": 5,
+          "revision_tasks": "Review all key time/space complexity cheat sheets across all five topics.",
+          "study_duration_hours": 1.5,
+          "practice_duration_hours": 1.5,
+          "total_hours": 3.0,
+          "is_final_prep": false
+        },
+        {
+          "day": 10,
+          "primary_focus": "Mock Exam & Final Preparation",
+          "tasks": [
+            "Perform final formula, template, and pattern summary review",
+            "Take a timed mock exam simulating real testing conditions",
+            "Review mock exam solutions and perform final mental walkthroughs"
+          ],
+          "learning_objectives": [
+            "Simulate exam-day pressure and time management",
+            "Solidify confidence in core problem-solving templates"
+          ],
+          "practice_tasks": [
+            "Take a 2-hour timed mock exam featuring 4 comprehensive multi-topic problems"
+          ],
+          "problem_count": 4,
+          "revision_tasks": "Final confidence-boosting review of core templates and high-yield problem patterns.",
+          "study_duration_hours": 1.0,
+          "practice_hours": 2.0,
+          "total_hours": 3.0,
+          "is_final_prep": true
+        }
+      ],
+      "total_practice_problems": 38,
+      "total_study_hours": 30.0,
+      "iteration": 2
+    },
+    "review_feedback": null,
+    "topic_analysis": {
+      "subject": "Data Structures",
+      "topics": [
+        {
+          "topic_name": "Arrays",
+          "priority": "Medium",
+          "difficulty": "Easy",
+          "learning_focus": "Since the student is at an intermediate level, skip basic array creation and focus heavily on advanced pattern recognition: two-pointer techniques, sliding window patterns, prefix sums, and in-place manipulation (e.g., matrix rotations, Dutch National Flag algorithm). Emphasize time and space complexity trade-offs.",
+          "recommended_study_duration_hours": 3.0
+        },
+        {
+          "topic_name": "Linked Lists",
+          "priority": "Medium",
+          "difficulty": "Medium",
+          "learning_focus": "Master pointer manipulation, fast and slow pointer techniques (cycle detection, finding the middle), reversing sub-lists, merging sorted lists, and dealing with edge cases like null pointers and single-node lists.",
+          "recommended_study_duration_hours": 3.0
+        },
+        {
+          "topic_name": "Trees",
+          "priority": "High",
+          "difficulty": "Medium",
+          "learning_focus": "Focus on binary trees, Binary Search Trees (BSTs), depth-first search (DFS) and breadth-first search (BFS) traversals (inorder, preorder, postorder, level order), lowest common ancestor (LCA), tree construction from traversals, and balance properties (AVL/Red-Black concept overview).",
+          "recommended_study_duration_hours": 6.0
+        },
+        {
+          "topic_name": "Graphs",
+          "priority": "High",
+          "difficulty": "Hard",
+          "learning_focus": "Understand graph representations (adjacency list vs. matrix), traversal algorithms (BFS and DFS), cycle detection in directed and undirected graphs, topological sorting, and shortest path algorithms (Dijkstra's and Bellman-Ford).",
+          "recommended_study_duration_hours": 3.0
+        },
+        {
+          "topic_name": "Dynamic Programming",
+          "priority": "High",
+          "difficulty": "Hard",
+          "learning_focus": "Thorough coverage as requested: identify overlapping subproblems and optimal substructure. Master the progressive ladder from 1D DP (Fibonacci, Climbing Stairs, House Robber) to 2D grid problems, subset sum, knapsack variants, and string matching (LCS/Edit Distance). Focus on state definition, recurrence relations, memoization, and bottom-up tabulation with space optimization.",
+          "recommended_study_duration_hours": 9.0
+        }
+      ],
+      "summary": "The syllabus is appropriately balanced for an intermediate student over a 30-hour timeline across 10 days. Foundational linear structures (Arrays, Linked Lists) are allocated concise refreshers (3 hours each) to maximize preparation time for complex non-linear and algorithmic topics. Trees receive 6 hours, Graphs receive 3 hours, and Dynamic Programming receives a heavy, thorough allocation of 9 hours to fully align with user preferences and exam difficulty."
+    },
+    "practice_plan": {
+      "subject": "Data Structures",
+      "topic_practice": [
+        {
+          "topic_name": "Arrays",
+          "recommended_problem_count": 5,
+          "practice_type": "coding problems",
+          "expected_duration_hours": 2.5,
+          "rationale": "Since the student is at an intermediate level, basic array iteration is skipped. Practice focuses on medium-difficulty pointer manipulation and sliding-window problems to build efficient problem-solving habits quickly."
+        },
+        {
+          "topic_name": "Linked Lists",
+          "recommended_problem_count": 5,
+          "practice_type": "coding problems",
+          "expected_duration_hours": 2.5,
+          "rationale": "Focuses on classic pointer-reversal, cycle detection, and merging patterns which are high-yield for intermediate coding assessments."
+        },
+        {
+          "topic_name": "Trees",
+          "recommended_problem_count": 8,
+          "practice_type": "mixed practice",
+          "expected_duration_hours": 5.0,
+          "rationale": "Covers core recursive and iterative tree traversals, depth/height calculations, and Lowest Common Ancestor problems to solidify non-linear structure traversal."
+        },
+        {
+          "topic_name": "Graphs",
+          "recommended_problem_count": 7,
+          "practice_type": "coding problems",
+          "expected_duration_hours": 2.5,
+          "rationale": "Focuses on graph representations, BFS/DFS traversal patterns, and foundational shortest path or cycle detection algorithms."
+        },
+        {
+          "topic_name": "Dynamic Programming",
+          "recommended_problem_count": 12,
+          "practice_type": "coding problems",
+          "expected_duration_hours": 12.0,
+          "rationale": "Extensive, thorough coverage across 3 days as requested by user preferences, taking a progressive ladder approach from basic 1D DP to advanced 2D grid and knapsack state-transition patterns."
+        }
+      ],
+      "total_practice_problems": 37,
+      "total_practice_hours": 24.5,
+      "mock_test_recommended": true
+    },
+    "schedule_plan": {
+      "subject": "Data Structures",
+      "total_days": 10,
+      "max_daily_hours_allowed": 3.0,
+      "daily_schedule": [
+        {
+          "day": 1,
+          "topics_and_tasks": [
+            "Review intermediate Array patterns: Two Pointers and Sliding Window",
+            "Analyze time and space complexities of in-place array manipulation",
+            "Solve 3 medium-difficulty LeetCode array problems (e.g., Subarray Sum Equals K, Three Sum)"
+          ],
+          "study_duration_hours": 1.5,
+          "practice_duration_hours": 1.5,
+          "revision_activity": "Quick self-quiz on array index manipulation bounds and sliding window invariant conditions.",
+          "daily_total_hours": 3.0,
+          "is_final_prep": false
+        },
+        {
+          "day": 2,
+          "topics_and_tasks": [
+            "Review Linked List manipulation templates: Fast/Slow pointers, Reversal, and Merging",
+            "Study cycle detection (Floyd's algorithm) and LRU cache design principles",
+            "Solve 3 medium-difficulty Linked List problems (e.g., Reverse Linked List II, Reorder List, Linked List Cycle II)"
+          ],
+          "study_duration_hours": 1.5,
+          "practice_duration_hours": 1.5,
+          "revision_activity": "Flashcard review of pointer adjustment pitfalls to avoid memory leaks or dangling pointers.",
+          "daily_total_hours": 3.0,
+          "is_final_prep": false
+        },
+        {
+          "day": 3,
+          "topics_and_tasks": [
+            "Tree Fundamentals: Binary Trees, BST properties, and DFS/BFS traversals (Recursive & Iterative)",
+            "Study Lowest Common Ancestor (LCA) and tree construction patterns",
+            "Solve 3 tree traversal and manipulation problems (e.g., Binary Tree Level Order Traversal, Validate BST)"
+          ],
+          "study_duration_hours": 1.5,
+          "practice_duration_hours": 1.5,
+          "revision_activity": "Draw tree recursion call stacks on paper to reinforce state propagation.",
+          "daily_total_hours": 3.0,
+          "is_final_prep": false
+        },
+        {
+          "day": 4,
+          "topics_and_tasks": [
+            "Advanced Trees: AVL/Red-Black overview, Trie implementation, and Heap/Priority Queue patterns",
+            "Study heap applications in top-K elements and streaming data",
+            "Solve 3 advanced tree/heap problems (e.g., Kth Largest Element in an Array, Implement Trie, Word Break using Trie)"
+          ],
+          "study_duration_hours": 1.5,
+          "practice_duration_hours": 1.5,
+          "revision_activity": "Compare time complexities of BST operations vs Heap operations.",
+          "daily_total_hours": 3.0,
+          "is_final_prep": false
+        },
+        {
+          "day": 5,
+          "topics_and_tasks": [
+            "Graph Representations: Adjacency list/matrix, BFS, and DFS graph traversals",
+            "Study cycle detection in directed/undirected graphs and topological sorting",
+            "Solve 3 graph problems (e.g., Course Schedule, Number of Islands, Clone Graph)"
+          ],
+          "study_duration_hours": 1.5,
+          "practice_duration_hours": 1.5,
+          "revision_activity": "Review visited-set mechanics and recursion depth limits in graph traversals.",
+          "daily_total_hours": 3.0,
+          "is_final_prep": false
+        },
+        {
+          "day": 6,
+          "topics_and_tasks": [
+            "Dynamic Programming Foundation: Memoization vs Tabulation, Identifying overlapping subproblems",
+            "Master 1D DP state transition patterns",
+            "Solve 3 classic 1D DP problems (e.g., Climbing Stairs, House Robber, Coin Change)"
+          ],
+          "study_duration_hours": 1.5,
+          "practice_duration_hours": 1.5,
+          "revision_activity": "Write down the state definition and recurrence relation for today's solved problems without looking at notes.",
+          "daily_total_hours": 3.0,
+          "is_final_prep": false
+        },
+        {
+          "day": 7,
+          "topics_and_tasks": [
+            "Advanced Dynamic Programming: 2D Grid DP and String Matching DP",
+            "Study Longest Common Subsequence (LCS), Edit Distance, and Unique Paths patterns",
+            "Solve 3 intermediate 2D DP problems (e.g., Minimum Path Sum, Longest Common Subsequence, Edit Distance)"
+          ],
+          "study_duration_hours": 1.5,
+          "practice_duration_hours": 1.5,
+          "revision_activity": "Trace the 2D DP table filling direction (bottom-up vs top-down memoization) for string problems.",
+          "daily_total_hours": 3.0,
+          "is_final_prep": false
+        },
+        {
+          "day": 8,
+          "topics_and_tasks": [
+            "Expert Dynamic Programming: Knapsack variants (0/1 Knapsack, Unbounded Knapsack) and Partition problems",
+            "Study interval DP and state compression techniques",
+            "Solve 3 complex DP problems (e.g., Partition Equal Subset Sum, Coin Change 2, Longest Increasing Subsequence)"
+          ],
+          "study_duration_hours": 1.5,
+          "practice_duration_hours": 1.5,
+          "revision_activity": "Create a summary sheet of the top 5 DP state-transition patterns and their base cases.",
+          "daily_total_hours": 3.0,
+          "is_final_prep": false
+        },
+        {
+          "day": 9,
+          "topics_and_tasks": [
+            "Comprehensive cross-topic review and weak spot remediation",
+            "Revisit flagged problems from Days 1 through 8",
+            "Solve a mixed set of 4 rapid-fire questions covering Arrays, Trees, Graphs, and DP"
+          ],
+          "study_duration_hours": 1.5,
+          "practice_duration_hours": 1.5,
+          "revision_activity": "Review all key time/space complexity cheat sheets across all five topics.",
+          "daily_total_hours": 3.0,
+          "is_final_prep": false
+        },
+        {
+          "day": 10,
+          "topics_and_tasks": [
+            "Final formula, template, and pattern summary review",
+            "Take a 2-hour timed mock exam simulating real testing conditions",
+            "Review mock exam solutions, analyze mistakes, and do final mental walkthroughs"
+          ],
+          "study_duration_hours": 1.0,
+          "practice_duration_hours": 2.0,
+          "revision_activity": "Final confidence-boosting review of core templates and high-yield problem patterns.",
+          "daily_total_hours": 3.0,
+          "is_final_prep": true
+        }
+      ],
+      "total_scheduled_hours": 30.0,
+      "schedule_strategy": "The 30 hours are distributed precisely across 10 days at 3 hours per day. Days 1-2 build a quick foundation in linear structures. Days 3-5 cover Trees and Graphs. Days 6-8 provide intensive, thorough coverage of Dynamic Programming across 1D, 2D, and Knapsack/Partition variants as requested. Day 9 handles mixed review and weak spots, while Day 10 is dedicated to final prep and a timed mock exam."
+    }
+  },
+  "summary_metrics": {
+    "subject": "Data Structures",
+    "exam_in_days": 10,
+    "current_level": "Intermediate",
+    "hours_per_day": 3.0,
+    "total_study_hours": 30.0,
+    "topics_count": 5,
+    "review_status": "VERIFIED"
+  }
+}
